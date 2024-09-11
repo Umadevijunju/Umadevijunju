@@ -1,0 +1,73 @@
+.progress-container {
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  .skill {
+    margin-bottom: 30px;
+  }
+  
+  .skill:last-child {
+    margin-bottom: 0;
+  }
+  
+  .skill-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .progress-bar {
+    position: relative;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #fd4766
+    , #ed5770);
+    width: 0;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: width 1.5s ease-in-out;
+  }
+  
+  /* Skill-specific widths */
+  .html-bar .progress-bar::after {
+    width: 90%;
+  }
+  
+  .css-bar .progress-bar::after {
+    width: 80%;
+  }
+  
+  .javascript-bar .progress-bar::after {
+    width: 75%;
+  }
+  
+  .java-bar .progress-bar::after {
+    width: 85%;
+  }
+  
+  /* Value Label */
+  .progress-bar span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }

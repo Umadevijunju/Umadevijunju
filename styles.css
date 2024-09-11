@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  #education {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  .education-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:  #fd4766;
+  }
+  
+  .education-item h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .institution {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .year {
+    color: #fd4766;
+    margin-bottom: 10px;
+  }
+  .education-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .institution {
+    font-style: italic;
+    color: #555;
+  }
+  
